@@ -3,9 +3,9 @@ console.log("dld;lsl")
 
 array = [
     
-    "What if everything is an illusion and nothing exists? In that case, I definitely overpaid for my carpet.",
+    'What if everything is an illusion and nothing exists? In that case, I definitely overpaid for my carpet.',
 
-"If you don't like your analyst, see your local algebraist!",
+'If you dont like your analyst, see your local algebraist!',
 
 'I must not fear. Fear is the mind killer. Fear is the little death that brings total obliteration. I will face my fear. I will permit it to pass over me and through me. And when it has gone past I will turn the inner eye to see its path. Where the fear has gone there will be nothing. Only I will remain.',
 
@@ -22,7 +22,7 @@ function display() {
 }
 
 function getQuote() {
-    var grab = array[Math.floor(Math.random()*array.length)];
+    var grab = array[Math.floor(Math.random() * array.length)];
      document.getElementById('quote').innerHTML = grab;
 }
 
@@ -33,9 +33,9 @@ function makeQuote() {
 function ifNoMath() {
     console.log(maths)
     
-    var maths = ["trig", "calc", "geometry", 'physics'];
-    var text = "";
-    if (maths.length == 0) {
+    var maths = ['trig', 'calc', 'geometry', 'physics'];
+    var text = '';
+    if (maths.length === 0) {
         document.getElementById('math-stuff').innerHTML = "no math so sad"
     } else {
        
